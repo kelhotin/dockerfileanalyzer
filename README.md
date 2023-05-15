@@ -6,7 +6,7 @@
 
 ### To run
 ```
-python analyzer.py <Path-to-Dockerfile>`  
+python main.py <Path-to-Dockerfile>`  
 ```
 ### To test
 inside `test` folder

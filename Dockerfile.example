@@ -1,0 +1,9 @@
+# syntax=docker/dockerfile:1
+   
+FROM node:14.10
+# FROM mySuspiciousBaseImage:version;echo "moro"
+WORKDIR /app
+ADD . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 10
